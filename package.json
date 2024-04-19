@@ -1,0 +1,19 @@
+{
+  "name": "macrodeck",
+  "version": "0.1.0",
+  "description": "Macro tool for desktop automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "npx tailwindcss -i ./src/pages/index.tailwind -o ./src/pages/index.css ",
+    "back": "python3 py-engine/server.py"
+  },
+  "author": "Hamza EL KAROUI",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.1",
+    "electron-reloader": "^1.2.3",
+    "tailwindcss": "^3.4.3"
+  }
+}
